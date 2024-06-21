@@ -1,0 +1,158 @@
+/* Palette
+"1B244A","F94F6D","1B244A","9194A4","282929" */
+
+@font-face {
+    font-family: digital-7;
+    src: url("digital-7.ttf");
+}
+
+@font-face {
+    font-family: overpass;
+    src: url("overpass-bold.otf");
+}
+
+body {
+    margin: 0;
+    font-family: overpass;
+    justify-content: center;
+    align-items: center;
+    background-image: url("basketball.avif");
+    background-size: 160% 110%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+/* "4988B5","7A9B82","DCD9D3","6F765B","7D8B80","FFAE01","F06E31","DAC5B4","C0D0D4","B79683" */
+
+.container {
+    margin: 40px auto;
+    background: #1B244A;
+    height: 380px;
+    width: 480px;
+    box-shadow: 0 0 20px black;
+}
+
+#title {
+    text-align: center;
+    color: #F94F6D;
+    text-shadow: 0 0 10px #282929;
+    padding: 20px 0 0 0;
+    margin: 0;
+    font-size: 45px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.scoresheet {
+    height: 200px;
+    width: 200px;
+    margin: 0;
+}
+
+.team-name {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 10px #282929;
+    margin: 30px 0 10px 0;
+}
+
+#guest-team {
+    color: #D95B27;
+}
+
+#home-team {
+    color: #E6A800;
+}
+
+.score {
+    color: #F94F6D;
+    background: #282929;
+    box-shadow: 0 0 10px white;
+    border-radius: 2px;
+    width: 90px;
+    height: 80px;
+    margin: 0 0 10px 8px;
+    padding: 5px 1px;
+    text-align: center;
+    font-family: digital-7;
+    font-size: 80px;
+    font-weight: 50;
+}
+
+.increment-button {
+    background: #282929;
+    border: 2px solid #9194A4;
+    border-radius: 2px;
+    color: #F94F6D;
+    width: 26px;
+    text-align: center;
+    margin: 0 0 0 5px;
+    padding: 2px 2px;
+    font-family: digital-7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.increment-button:hover {
+    background: #F94F6D;
+    color: #282929;
+}
+
+#reset {
+    background: #1B244A;
+    color: #F94F6D;
+    display: block;
+    width: 130px;
+    height: 40px;
+    margin: 15px auto 0 auto;
+    border: 2px solid #F94F6D;
+    border-radius: 4px;
+    font-family: digital-7;
+    font-size: 30px;
+    font-weight: 50;
+    cursor: pointer;
+    box-shadow: 0 0 10px #9194A4;
+}
+
+#reset:hover {
+    background: #F94F6D;
+    color: #1B244A;
+    box-shadow: 0 0 15px #F94F6D;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1B244A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #F94F6D;
+}
+
+main {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}

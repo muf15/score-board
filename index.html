@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Abhijit!</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b7cb766248.js" crossorigin="anonymous"></script>
+    <meta name="description" content="A fun basketball scorekeeper for Abhijit's birthday celebration.">
+    <meta name="keywords" content="basketball, scorekeeper, birthday, Abhijit, fun">
+    <meta name="author" content="Mufaddal Ratlamwala">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2 id="title">BASKETBALL SCORE</h2>
+            <div class="flex">
+                <section class="score-sheet">
+                    <h3 class="team-name" id="home-team">HOME</h3>
+                    <h4 class="score" id="home-score">0</h4>
+                    <div class="buttons">
+                        <button 
+                            id="home-inc-1" 
+                            class="increment-button" 
+                            onclick="homeInc1()">
+                        +1
+                        </button>
+                        <button 
+                            id="home-inc-2" 
+                            class="increment-button" 
+                            onclick="homeInc2()">
+                        +2
+                        </button>
+                        <button 
+                            id="home-inc-3" 
+                            class="increment-button" 
+                            onclick="homeInc3()">
+                        +3
+                        </button>
+                    </div>
+                </section>
+                <section class="score-sheet">
+                    <h3 class="team-name" id="guest-team">GUEST</h3>
+                    <h4 class="score" id="guest-score">0</h4>
+                    <div class="buttons">
+                        <button 
+                            id="guest-inc-1" 
+                            class="increment-button" 
+                            onclick="guestInc1()">
+                        +1
+                        </button>
+                        <button 
+                            id="guest-inc-2" 
+                            class="increment-button" 
+                            onclick="guestInc2()">
+                        +2
+                        </button>
+                        <button 
+                            id="guest-inc-3" 
+                            class="increment-button" 
+                            onclick="guestInc3()">
+                        +3
+                        </button>
+                    </div>
+                </section>
+            </div>    
+            <button 
+                id="reset" 
+                onclick="reset()">
+                NEW GAME
+            </button>    
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <footer>
+        &copy; 2024 - Mufaddal Ratlamwala
+        <div class="social-icons">
+            <a href="https://github.com/muf15" target="_blank"><i class="fab fa-github" aria-label="GitHub"></i></a>
+            <a href="https://www.linkedin.com/in/mufaddal-ratlamwala-643570256" target="_blank"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
+            <a href="https://www.instagram.com/muffucodes/" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+        </div>
+    </footer>    
+</body>
+</html>

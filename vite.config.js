@@ -1,10 +1,14 @@
 import { defineConfig } from 'vite';
+import html from '@rollup/plugin-html';
 
 export default defineConfig({
+  plugins: [
+    html()
+  ],
   build: {
     rollupOptions: {
       input: {
-        main: 'public/index.html'
+        index: 'src/index.js'
       }
     }
   }

@@ -1,5 +1,3 @@
-import './index.css';
-
 let homeEl = document.getElementById("home-score")
 let guestEl = document.getElementById("guest-score")
 let homeScore = 0

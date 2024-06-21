@@ -1,0 +1,12 @@
+{
+    "name": "basketball-score-js",
+    "version": "1.0.0",
+    "description": "A fun basketball scorekeeper",
+    "scripts": {
+      "build": "vite build"
+    },
+    "devDependencies": {
+      "vite": "^2.0.0"
+    }
+  }
+  

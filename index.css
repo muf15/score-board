@@ -1,5 +1,5 @@
 /* Palette
-"1B244A","F94F6D","1B244A","9194A4","282929" */
+"1B244A","F94F6D","1B244A","9194A4","282929","4988B5","7A9B82","DCD9D3","6F765B","7D8B80","FFAE01","F06E31","DAC5B4","C0D0D4","B79683"*/
 
 @font-face {
     font-family: digital-7;
@@ -21,8 +21,6 @@ body {
     background-position: left bottom;
     background-repeat: no-repeat;
 }
-
-/* "4988B5","7A9B82","DCD9D3","6F765B","7D8B80","FFAE01","F06E31","DAC5B4","C0D0D4","B79683" */
 
 .container {
     margin: 40px auto;
